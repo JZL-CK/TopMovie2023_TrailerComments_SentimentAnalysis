@@ -146,7 +146,7 @@ sentiment_scores_df
 
 
 # Ensure that all sentiment score columns are numeric
-numeric_columns <- names(sentiment_scores_df)[2:11]  # Assuming the first column is 'Movie' and the rest are sentiment scores
+numeric_columns <- names(sentiment_scores_df)[2:11] 
 
 sentiment_scores_df[numeric_columns] <- lapply(sentiment_scores_df[numeric_columns], function(x) as.numeric(as.character(x)))
 
