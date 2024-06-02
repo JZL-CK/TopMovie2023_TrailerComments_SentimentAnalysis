@@ -1,2 +1,2 @@
 # TopMovie2023_TrailerComments_SentimentAnalysis
-The top 20 movies in the year 2023 were identified via IMDB- the trailers to these movies were pinpointed in YouTube- the comments from all 20 of these videos were scraped and then a sentiment analysis was run on each of them.
+The top 20 movies in the year 2023 were identified via IMDB- the trailers to these movies were pinpointed in YouTube- the comments from all 20 of these videos were scraped and then a sentiment analysis was run on each of them. A csv file with the sentiment scores (both absolute numbers and percentages) is the main output along with basic visualizations (barplot, stacked barplot, and heatmap). 
